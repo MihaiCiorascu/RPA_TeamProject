@@ -1,0 +1,7 @@
+.nuget/
+.packages/
+.project/
+*.local
+*.user
+bin/
+obj/
