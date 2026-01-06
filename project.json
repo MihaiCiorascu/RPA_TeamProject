@@ -1,12 +1,14 @@
 {
   "name": "TranslatorEvaluator",
+  "projectId": "00d42c3c-0b44-4da7-a362-e45580d4af49",
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.1]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.5.10]",
     "UiPath.System.Activities": "[22.10.4]",
     "UiPath.Testing.Activities": "[22.10.1]",
-    "UiPath.UIAutomation.Activities": "[22.10.4]"
+    "UiPath.UIAutomation.Activities": "[25.10.22]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -20,6 +22,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -34,7 +37,6 @@
     "projectProfile": "Developement",
     "outputType": "Process",
     "libraryOptions": {
-      "includeOriginalXaml": false,
       "privateWorkflows": []
     },
     "processOptions": {
@@ -84,7 +86,7 @@
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
       }
     ],
-    "modernBehavior": true
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
