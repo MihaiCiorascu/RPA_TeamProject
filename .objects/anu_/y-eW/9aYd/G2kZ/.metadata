@@ -1,0 +1,13 @@
+﻿{
+  "Name": "aType to translate.Drag…",
+  "Type": "Element",
+  "Id": "G2kZC_m1K0SUgjrz3UZliA",
+  "Reference": "S5lNRChmnUGukL9B2fgSvA/G2kZC_m1K0SUgjrz3UZliA",
+  "ParentRef": "S5lNRChmnUGukL9B2fgSvA/9aYdaepSakCPBdmOnAx97Q",
+  "Created": "2026-01-12T16:25:49.9190747Z",
+  "Updated": "2026-01-12T16:25:49.9190747Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
